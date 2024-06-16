@@ -1,0 +1,27 @@
+/****************************
+Theme Name:Portfolio
+Author:Mohammed Fachihul Alam
+Author URL:https://facebook.com
+Tags: One page,portfolio website,portfolio template,personal website
+Description:This is a HTML,CSS,JS portfolio website for anyone who wants to showcase their portfolio.
+Version:1.0.0 
+
+
+*****************************/
+
+// base files
+@import "base/variables";
+@import "base/mixin";
+
+// components
+@import "components/header";
+@import "components/footer";
+@import "components/breadcrumb";
+
+// theme files
+@import "theme/animations";
+@import "theme/theme-class.scss";
+
+// pages file
+@import "pages/index-1";
+@import "pages/index-2";
